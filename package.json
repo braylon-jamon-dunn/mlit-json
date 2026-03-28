@@ -1,0 +1,13 @@
+{
+  "name": "mlit-json",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "download": "bash scripts/download.sh",
+    "process": "tsx scripts/process.ts",
+    "update": "pnpm run download && pnpm run process"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0"
+  }
+}
